@@ -60,4 +60,8 @@
    font-family: consolas;
    font-weight: 200;
    letter-spacing: 3px;
+   animation: h2Ani ease 2s infinite;
+}
+@keyframes h2Ani {
+   50% {transform: translate(50px)}
 }
